@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: server-nc-config
+data:
+  server-nc-url: server-nc-service
+
